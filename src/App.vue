@@ -8,7 +8,7 @@
 
 <script>
 import HelloWorld from './components/HelloWorld.vue'
-import CounterComponent from 'packages/counter/CounterComponent.vue';
+import CounterComponent from '../packages/counter/counter/src/components/CounterComponent.vue';
 export default {
   name: 'App',
   components: {

@@ -1,6 +1,3 @@
-[submodule "counter"]
-	path = packages
-	url = https://github.com/Sweetysweet/module-a
 [submodule "packages/counter"]
 	path = packages/counter
 	url = https://github.com/Sweetysweet/module-a
