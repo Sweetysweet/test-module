@@ -40,7 +40,5 @@
     "not dead",
     "not ie 11"
   ],
-  "workspaces": {
-    "counter": "./counter"
-  }
+  "workspaces": ["packages/counter"]
 }
