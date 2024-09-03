@@ -1,19 +1,19 @@
 <template>
   <img alt="Vue logo" src="./assets/logo.png">
   <HelloWorld msg="Welcome to Your Vue.js App"/>
-  <CounterComponent />
   <!-- synchronize the submodule
    git submodule update --remote --merge --recursive -->
+   <My-Counter />
 </template>
 
 <script>
 import HelloWorld from './components/HelloWorld.vue'
-import CounterComponent from '../packages/counter/counter/src/components/CounterComponent.vue';
+import MyCounter from '@sample-proj/counter/src/components/MyCounter.vue'
 export default {
   name: 'App',
   components: {
     HelloWorld,
-    CounterComponent
+    MyCounter
   }
 }
 </script>
